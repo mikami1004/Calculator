@@ -1,22 +1,35 @@
 body{
   font-family: "Arial";
+  /*
   width: 95vw;
   height: 80vh;
+  */
   text-align: center;
+  margin: 0 auto 0;
+  max-width: 430px;
+}
+.screen{
+  width: 95vw;
+  height: 80vh;
+  max-width: 500px;
   background-color: #000;
+  border-radius: 20px;
 }
 
-.display{
+#display{
   color: #fff;
   text-align: right;
   font-size: 85px;
   margin: 30% 15px 0 0;
 }
+.keyboard{
+  align-items: flex-end;
+}
 
 .calc-row{
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 10px 10px;
   align-items: flex-end;
 }
 .calc-button{
@@ -29,9 +42,8 @@ body{
   color: #fff;
   border-radius: 50px;
 }
-.calc-button.func{
+.calc-row:nth-child(1) .calc-button:not(:last-child){
   background-color: #a5a5a5;
-  color: #000;
 }
 .calc-button:last-child{
   background-color: #ff9f0c;

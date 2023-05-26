@@ -11,81 +11,47 @@
 </head>
 
 <body>
-    <div class="display">
+  <div class="screen">
+    <div id="display">
       0
     </div>
-    <div class="calc-row">
-      <button class="calc-button func">
-        AC
-      </button>
-      <button class="calc-button func">
-        +/-
-      </button>
-      <button class="calc-button func">
-        &percnt;
-      </button>
-      <button class="calc-button">
-        &divide;
-      </button>
-    </div>
-    
-    <div class="calc-row">
-      <button class="calc-button">
-        7
-      </button>
-      <button class="calc-button">
-        8
-      </button>
-      <button class="calc-button">
-        9
-      </button>
-      <button class="calc-button">
-        &times;
-      </button>
-    </div>
-
-    <div class="calc-row">
-      <button class="calc-button">
-        4
-      </button>
-      <button class="calc-button">
-        5
-      </button>
-      <button class="calc-button">
-        6
-      </button>
-      <button class="calc-button">
-        &minus;
-      </button>
-    </div>
-    
-    <div class="calc-row">
-      <button class="calc-button">
-        1
-      </button>
-      <button class="calc-button">
-        2
-      </button>
-      <button class="calc-button">
-        3
-      </button>
-      <button class="calc-button">
-        &plus;
-      </button>
-    </div>
-    
-    <div class="calc-row">
-      <button class="calc-button double">
-        0
-      </button>
-      <button class="calc-button">
-        .
-      </button>
-      <button class="calc-button">
-        &equals;
-      </button>
+    <div class="keyboard">
+      <div class="calc-row">
+        <button class="calc-button clear">AC</button>
+        <button class="calc-button func">+/-</button>
+        <button class="calc-button func">&percnt;</button>
+        <button class="calc-button ope">&divide;</button>
+      </div>
       
-    <script src="app.js"></script>
+      <div class="calc-row">
+        <button class="calc-button num">7</button>
+        <button class="calc-button num">8</button>
+        <button class="calc-button num">9</button>
+        <button class="calc-button ope">&times;</button>
+      </div>
+
+      <div class="calc-row">
+        <button class="calc-button num">4</button>
+        <button class="calc-button num">5</button>
+        <button class="calc-button num">6</button>
+        <button class="calc-button ope">&minus;</button>
+      </div>
+      
+      <div class="calc-row">
+        <button class="calc-button num">1</button>
+        <button class="calc-button num">2</button>
+        <button class="calc-button num">3</button>
+        <button class="calc-button ope">&plus;</button>
+      </div>
+      
+      <div class="calc-row">
+        <button class="calc-button double num">0</button>
+        <button class="calc-button num">.</button>
+        <button class="calc-button ope">&equals;</button>
+      </div>
+    </div>
+  </div>
+  <script src="/app.js"></script>
 </body>
 
 </html> 
